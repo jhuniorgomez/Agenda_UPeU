@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "733471440564",
+    "project_id": "proyectoagenda-ec874",
+    "storage_bucket": "proyectoagenda-ec874.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:733471440564:android:47a63a7a37cbb7a4b4a1e1",
+        "android_client_info": {
+          "package_name": "com.proyectoandroid.agenda_upeu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "733471440564-ul8i5u6675njt8k9b8srjsknhlpch8bl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.proyectoandroid.agenda_upeu",
+            "certificate_hash": "29590c6b1e2d97e4076903f0c7ead69684eca936"
+          }
+        },
+        {
+          "client_id": "733471440564-kevbb0jtquo7rudk09dhsreb7tvpssqa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZAzJuRnL9HroYmCsKsxESG3AH0nBesPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "733471440564-kevbb0jtquo7rudk09dhsreb7tvpssqa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

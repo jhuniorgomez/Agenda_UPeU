@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="Imagen_c_Item" type="id" />
+    <item name="Id_c_Item" type="id" />
+    <item name="Uid_c_Item" type="id" />
+    <item name="nombres_c_Item" type="id" />
+    <item name="direccion_c_Item" type="id" />
+    <item name="edad_c_Item" type="id" />
+    <item name="telefono_c_Item" type="id" />
+    <item name="correo_c_Item" type="id" />
+    <item name="apellidos_c_Item" type="id" />
+    <item name="Agregar_Nota_BD" type="id" />
+    <item name="Id_nota_Item_I" type="id" />
+    <item name="Uid_Usuario_Item_I" type="id" />
+    <item name="Correo_usuario_Item_I" type="id" />
+    <item name="Fecha_hora_registro_Item_I" type="id" />
+    <item name="Titulo_Item_I" type="id" />
+    <item name="Descripcion_Item_I" type="id" />
+    <item name="Fecha_Item_I" type="id" />
+    <item name="Estado_Item_I" type="id" />
+    <item name="Tarea_Finalizada_Item_I" type="id" />
+    <item name="Tarea_No_Finalizada_Item_I" type="id" />
+    <item name="recyclerviewNotas" type="id" />
+    <item name="Uid_Usuario_C" type="id" />
+    <item name="Nombres_C" type="id" />
+    <item name="Apellidos_C" type="id" />
+    <item name="Correo_C" type="id" />
+    <item name="Telefono_C" type="id" />
+    <item name="Edad_C" type="id" />
+    <item name="Direccion_C" type="id" />
+    <item name="Editar_Telefono_C" type="id" />
+    <item name="Btn_Guardar_Contacto" type="id" />
+</resources>
