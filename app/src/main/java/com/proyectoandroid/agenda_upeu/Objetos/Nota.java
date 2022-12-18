@@ -5,6 +5,9 @@ public class Nota {
     //Atributos con los que contará una NOTA
     String id_nota, uid_usuario, correo_usuario, fecha_hora_actual, titulo, descripcion, fecha_nota, estado;
 
+    public Nota() {
+    }
+
     public Nota(String id_nota) {
         this.id_nota = id_nota;
     }
