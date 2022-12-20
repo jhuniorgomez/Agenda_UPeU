@@ -132,6 +132,7 @@ public class Editar_imagen_perfil extends AppCompatActivity {
         progressDialog.show();
         String carpetaImagenes = "ImagenesPerfil/";
         String NombreImagen = carpetaImagenes+firebaseAuth.getUid();
+
         StorageReference reference = FirebaseStorage.getInstance().getReference(NombreImagen);
         reference.putFile(imagenUri)
                 .addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
@@ -173,7 +174,7 @@ public class Editar_imagen_perfil extends AppCompatActivity {
                 }).addOnFailureListener(new OnFailureListener() {
                     @Override
                     public void onFailure(@NonNull Exception e) {
-                        Toast.makeText(Editar_imagen_perfil.this, ""+e.getMessage(), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(Editar_imagen_perfil.this, "AAAAA"+e.getMessage(), Toast.LENGTH_SHORT).show();
                     }
                 });
     }
@@ -241,6 +242,7 @@ public class Editar_imagen_perfil extends AppCompatActivity {
                     if (result.getResultCode() == Activity.RESULT_OK){
                         //Obtener uri de la imagen
                         Intent data = result.getData();
+                        assert data != null;
                         imagenUri = data.getData();
                         //Setear la imagen seleccionada en el imageView
                         ImagenPerfilActualizar.setImageURI(imagenUri);
